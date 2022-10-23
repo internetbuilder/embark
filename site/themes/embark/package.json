@@ -21,7 +21,7 @@
     "gulp-util": "^3.0.8",
     "lity": "^2.3.1",
     "minimist": "^1.2.0",
-    "node-pre-gyp": "^0.11.0",
+    "node-pre-gyp": "^0.17.0",
     "patternlab-node": "2.12.0",
     "run-sequence": "^2.2.0",
     "styleguidekit-assets-default": "^3.0.0",
