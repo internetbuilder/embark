@@ -41,7 +41,9 @@
     "lint:ts": "tslint -c tslint.json \"src/**/*.ts\"",
     "qa": "npm-run-all lint _typecheck _build",
     "reset": "npx rimraf dist embark-*.tgz package",
-    "solo": "embark-solo"
+    "solo": "embark-solo",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "eslintConfig": {
     "extends": "../../../.eslintrc.json"
@@ -75,7 +77,8 @@
     "web3": "1.2.6",
     "web3-eth": "1.2.6",
     "web3-eth-abi": "1.2.6",
-    "ws": "7.2.2"
+    "ws": "7.2.2",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "embark-inside-monorepo": "^6.0.0",
@@ -90,5 +93,6 @@
     "node": ">=10.17.0",
     "npm": ">=6.11.3",
     "yarn": ">=1.19.1"
-  }
+  },
+  "snyk": true
 }
