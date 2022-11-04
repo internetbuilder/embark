@@ -64,7 +64,7 @@
     "embarkjs": "^6.0.0",
     "fs-extra": "8.1.0",
     "parse-json": "5.0.0",
-    "vm2": "3.8.4",
+    "vm2": "3.9.6",
     "web3": "1.2.6"
   },
   "devDependencies": {
