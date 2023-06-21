@@ -103,7 +103,7 @@
     "pkg-up": "2.0.0",
     "promptly": "2.2.0",
     "pump": "3.0.0",
-    "semver": "5.6.0",
+    "semver": "7.5.2",
     "shelljs": "0.8.3",
     "simples": "0.8.8",
     "source-map-support": "0.5.16",
