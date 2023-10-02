@@ -9,7 +9,7 @@
     "fs": "0.0.1-security",
     "global": "^4.3.2",
     "gulp": "github:gulpjs/gulp#4.0",
-    "gulp-autoprefixer": "6.0.0",
+    "gulp-autoprefixer": "8.0.0",
     "gulp-bump": "^2.9.0",
     "gulp-cli": "gulpjs/gulp-cli",
     "gulp-concat": "^2.6.1",
