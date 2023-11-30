@@ -61,7 +61,7 @@
     "embark-core": "^6.0.0",
     "embarkjs": "^6.0.0",
     "fs-extra": "8.1.0",
-    "snarkjs": "0.1.20"
+    "snarkjs": "0.1.22"
   },
   "devDependencies": {
     "embark-solo": "^6.0.0",
