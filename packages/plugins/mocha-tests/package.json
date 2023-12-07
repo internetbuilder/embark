@@ -60,7 +60,7 @@
     "embark-i18n": "^6.0.0",
     "embark-utils": "^6.0.0",
     "embarkjs": "^6.0.0",
-    "mocha": "7.1.0",
+    "mocha": "8.3.0",
     "web3": "1.2.6"
   },
   "devDependencies": {
