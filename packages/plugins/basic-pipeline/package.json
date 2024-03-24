@@ -45,7 +45,9 @@
     "qa": "npm-run-all lint _typecheck _build test",
     "reset": "npx rimraf dist embark-*.tgz package",
     "solo": "embark-solo",
-    "test": "jest"
+    "test": "jest",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "eslintConfig": {
     "extends": [
@@ -89,7 +91,8 @@
     "sass-loader": "8.0.0",
     "style-loader": "1.1.3",
     "url-loader": "2.2.0",
-    "webpack": "4.41.2"
+    "webpack": "4.41.2",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "babel-jest": "24.9.0",
@@ -120,5 +123,6 @@
         }
       ]
     }
-  }
+  },
+  "snyk": true
 }
