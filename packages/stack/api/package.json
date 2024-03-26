@@ -57,7 +57,7 @@
     "embark-i18n": "^6.0.0",
     "embark-ui": "^6.0.0",
     "embark-utils": "^6.0.0",
-    "express": "4.17.1",
+    "express": "4.19.2",
     "express-ws": "4.0.0",
     "find-up": "4.1.0",
     "helmet": "3.13.0",
