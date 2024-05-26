@@ -35,7 +35,7 @@
     "extends": "../../../.eslintrc.json"
   },
   "dependencies": {
-    "rimraf": "3.0.0"
+    "rimraf": "4.3.1"
   },
   "devDependencies": {
     "embark-solo": "^6.0.0",
