@@ -1,0 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - quorum-js > request-promise-native > request-promise-core > lodash:
+        patched: '2024-06-05T18:48:09.739Z'
+        id: SNYK-JS-LODASH-567746
+        path: quorum-js > request-promise-native > request-promise-core > lodash
