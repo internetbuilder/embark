@@ -43,7 +43,9 @@
     "qa": "npm-run-all lint _typecheck _build test",
     "reset": "npx rimraf .nyc_output dist embark-*.tgz package",
     "solo": "embark-solo",
-    "test": "nyc --reporter=html --reporter=json mocha \"dist/test/**/*.js\" --exit --no-timeouts --require source-map-support/register"
+    "test": "nyc --reporter=html --reporter=json mocha \"dist/test/**/*.js\" --exit --no-timeouts --require source-map-support/register",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "eslintConfig": {
     "env": {
@@ -61,7 +63,8 @@
     "embark-utils": "^6.0.0",
     "embarkjs": "^6.0.0",
     "mocha": "7.1.0",
-    "web3": "1.2.6"
+    "web3": "1.2.6",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "embark-solo": "^6.0.0",
@@ -77,5 +80,6 @@
     "node": ">=10.17.0",
     "npm": ">=6.11.3",
     "yarn": ">=1.19.1"
-  }
+  },
+  "snyk": true
 }
