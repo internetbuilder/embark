@@ -36,7 +36,9 @@
     "lint": "eslint src/",
     "qa": "npm-run-all lint _typecheck _build",
     "reset": "npx rimraf dist embark-*.tgz package",
-    "solo": "embark-solo"
+    "solo": "embark-solo",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "eslintConfig": {
     "extends": "../../../.eslintrc.json"
@@ -50,7 +52,8 @@
     "ethers": "4.0.40",
     "quorum-js": "0.3.4",
     "request": "2.88.0",
-    "web3": "1.2.6"
+    "web3": "1.2.6",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "embark-solo": "^6.0.0",
@@ -62,5 +65,6 @@
     "node": ">=10.17.0",
     "npm": ">=6.11.3",
     "yarn": ">=1.19.1"
-  }
+  },
+  "snyk": true
 }
