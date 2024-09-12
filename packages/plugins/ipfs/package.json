@@ -58,7 +58,7 @@
     "embark-utils": "^6.0.0",
     "embarkjs": "^6.0.0",
     "embarkjs-ipfs": "^6.0.0",
-    "ipfs-http-client": "40.0.0",
+    "ipfs-http-client": "60.0.1",
     "lodash.clonedeep": "4.5.0",
     "shelljs": "0.8.3"
   },
