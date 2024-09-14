@@ -46,7 +46,7 @@
   },
   "dependencies": {
     "@babel/runtime-corejs3": "7.8.4",
-    "chokidar": "2.1.6",
+    "chokidar": "4.0.0",
     "core-js": "3.4.3",
     "embark-i18n": "^6.0.0",
     "embark-utils": "^6.0.0"
