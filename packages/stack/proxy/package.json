@@ -65,7 +65,7 @@
     "embark-i18n": "^6.0.0",
     "embark-logger": "^6.0.0",
     "embark-utils": "^6.0.0",
-    "express": "4.17.1",
+    "express": "4.20.0",
     "express-ws": "4.0.0",
     "web3-core-requestmanager": "1.2.6",
     "web3-providers-ws": "1.2.6"
