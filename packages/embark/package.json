@@ -121,7 +121,7 @@
     "web3-eth-accounts": "1.2.6",
     "web3-eth-contract": "1.2.6",
     "web3-eth-iban": "1.2.6",
-    "web3-eth-personal": "1.2.6",
+    "web3-eth-personal": "4.1.0",
     "web3-net": "1.2.6",
     "web3-providers-http": "1.2.6",
     "web3-providers-ipc": "1.2.6",
