@@ -59,8 +59,8 @@
     "embark-logger": "^6.0.0",
     "embark-utils": "^6.0.0",
     "lodash.clonedeep": "4.5.0",
-    "quorum-js": "0.3.4",
-    "web3": "1.2.6"
+    "quorum-js": "0.3.6",
+    "web3": "4.0.1"
   },
   "devDependencies": {
     "cross-env": "5.2.0",
