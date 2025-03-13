@@ -56,7 +56,7 @@
     "solo": "embark-solo"
   },
   "dependencies": {
-    "@babel/runtime-corejs3": "7.8.4",
+    "@babel/runtime-corejs3": "7.26.10",
     "core-js": "3.6.4",
     "embark-core": "^6.0.0",
     "embarkjs": "^6.0.0",
