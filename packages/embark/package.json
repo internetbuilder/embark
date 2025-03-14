@@ -63,7 +63,7 @@
     ]
   },
   "dependencies": {
-    "@babel/runtime-corejs3": "7.8.4",
+    "@babel/runtime-corejs3": "7.26.10",
     "ajv": "6.10.2",
     "ascii-table": "0.0.9",
     "async": "3.2.0",
@@ -104,7 +104,7 @@
     "promptly": "2.2.0",
     "pump": "3.0.0",
     "semver": "5.6.0",
-    "shelljs": "0.8.3",
+    "shelljs": "0.9.0",
     "simples": "0.8.8",
     "source-map-support": "0.5.16",
     "term.js": "0.0.7",
