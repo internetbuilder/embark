@@ -45,7 +45,7 @@
     "extends": "../../../.eslintrc.json"
   },
   "dependencies": {
-    "@babel/runtime-corejs3": "7.8.4",
+    "@babel/runtime-corejs3": "7.26.10",
     "core-js": "3.4.3",
     "embark-accounts-manager": "^6.0.0",
     "embark-api": "^6.0.0",
