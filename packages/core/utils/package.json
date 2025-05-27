@@ -67,7 +67,7 @@
     "glob": "7.1.4",
     "globule": "1.2.1",
     "merge": "1.2.1",
-    "multihashes": "0.4.14",
+    "multihashes": "0.4.17",
     "ora": "4.0.3",
     "pretty-ms": "5.1.0",
     "propose": "0.0.5",
