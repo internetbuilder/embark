@@ -51,7 +51,7 @@
     "embark-logger": "^6.0.0",
     "embark-utils": "^6.0.0",
     "handlebars": "4.3.0",
-    "web3-utils": "1.2.6"
+    "web3-utils": "1.6.0"
   },
   "devDependencies": {
     "embark-solo": "^6.0.0",
