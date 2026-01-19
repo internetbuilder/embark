@@ -55,7 +55,7 @@
     "core-js": "3.4.3",
     "embark-utils": "^6.0.0",
     "remix-tests": "0.1.24",
-    "web3": "1.2.6",
+    "web3": "4.0.1",
     "yo-yoify": "4.3.0"
   },
   "devDependencies": {
