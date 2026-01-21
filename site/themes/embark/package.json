@@ -15,7 +15,7 @@
     "gulp-concat": "^2.6.1",
     "gulp-conventional-changelog": "^2.0.9",
     "gulp-git": "^2.4.2",
-    "gulp-sass": "^3.1.0",
+    "gulp-sass": "^5.0.0",
     "gulp-sourcemaps": "^2.6.4",
     "gulp-svg-sprites": "^4.1.2",
     "gulp-util": "^3.0.8",
