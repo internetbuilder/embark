@@ -40,7 +40,9 @@
     "lint:ts": "tslint -c tslint.json \"src/**/*.ts\"",
     "qa": "npm-run-all lint _typecheck _build",
     "reset": "npx rimraf .nyc_output coverage dist embark-*.tgz package",
-    "solo": "embark-solo"
+    "solo": "embark-solo",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "@babel/runtime-corejs3": "7.8.4",
@@ -48,7 +50,8 @@
     "colors": "1.3.2",
     "core-js": "3.4.3",
     "embark-i18n": "^6.0.0",
-    "remix-debug": "0.3.23"
+    "remix-debug": "0.3.23",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "embark-solo": "^6.0.0",
@@ -61,5 +64,6 @@
     "node": ">=10.17.0",
     "npm": ">=6.11.3",
     "yarn": ">=1.19.1"
-  }
+  },
+  "snyk": true
 }
